@@ -1,0 +1,133 @@
+*{ user-select: none;}
+.frame{
+    height: 610px;
+    width: 700px;
+    margin: auto;
+    background-color: rgb(44, 54, 199);
+    position: relative;
+}
+.start-button *{
+    background-color: rgb(39, 119, 156);
+    border: 2px solid #ccc;
+    margin-top: 10px;
+}
+.start-button *:hover{
+    background-color: #ffd900;
+}
+.bottom{
+    bottom: 10px;
+    position: absolute;
+}
+.question{
+    border: 1px solid gainsboro;
+    background-color: rgb(36, 36, 128);
+    border-radius: 10px;
+    padding: 5px;
+    width: 96%;
+    margin-left: 2%;
+    height: 100px
+}
+.w-96{
+    width: 96%;
+}
+.answer{
+    background-color: rgb(36, 36, 128);
+    border: 1px solid gainsboro;
+    padding: 5px;
+    border-radius: 5px;
+}
+.light-text *{
+    color: aliceblue;
+}
+.answer:hover{
+    background-color: #ffd900;
+}
+.bg-score{
+    background-color:  rgb(41, 41, 163);
+    padding-bottom: 10px;
+    border-left: 1px solid gainsboro;
+    border-bottom: 1px solid gainsboro;
+}
+.w49{
+    width: 49%;
+    margin-right: 10px;
+}
+ul{
+    padding-left: 0;
+}
+li{
+    list-style: none;
+}
+.score-active{
+    background-color: #ffd900;
+}
+.s1{
+    border-radius: 50%;
+    background-color: blue;
+    color: aliceblue;
+    border: 1px solid whitesmoke;
+    width: 40px;
+}
+.s1.active{
+    background-color: #ffd900;
+}
+.left-align-button {
+    text-align: left;
+}
+
+#clock{
+    text-align: center;
+    width: 32px;
+    border: 1px solid #ccc;
+    background-color: rgb(36, 36, 128);
+    color: aliceblue;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 448px;
+    top: -34px;
+}
+.scorelist{
+    color: aliceblue;
+}
+.scorelist span{
+    display: inline-block;
+    width: 40px;
+}
+#nofilication{
+    background-color: rgb(36, 36, 128);
+    left: 100px;
+    z-index: 5;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    color: whitesmoke;
+    position: absolute;
+    top: 50px;
+    height: 500px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.chooseanswer{
+    background-color: #ffd900;
+}
+#sm-nonfilication{
+    background-color: rgb(36, 36, 128);
+    left: 100px;
+    z-index: 5;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    color: whitesmoke;
+    position: absolute;
+    top: 300px;
+    height: 100px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
